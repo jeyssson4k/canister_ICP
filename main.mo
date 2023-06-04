@@ -13,6 +13,8 @@ actor LyricsGallery {
   type LetraCancion = {
     titulo : Text;
     contenido : Text;
+    duracion : Nat;
+    album : Text;
   };
 
   // Creamos el hashmap para almacenar las letras de canciones
